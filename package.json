@@ -1,0 +1,20 @@
+{
+  "name": "patch-notes",
+  "version": "1.0.0",
+  "description": "SMITE Patch Notes",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-jade": "^1.0.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Alissa Taylor",
+  "license": "ISC"
+}

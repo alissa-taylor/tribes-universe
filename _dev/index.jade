@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/foundation.css")
+    link(rel="stylesheet", href="css/style.css")
+    script(src="js/vendor/modernizr.js")
+    script(src="js/vendor/jquery.js")
+    script(src="js/vendor/fastclick.js")
+    script(src="js/foundation.min.js")
+    
+  body
+  
+    .row.header
+      .column.small-6
+        img.left(src="img/hirez.png")
+      .column.large-6
+        button.button.dropdown.right(href='#', data-dropdown='drop1', aria-controls='drop1', aria-expanded='false') Titles
+        br
+        ul#drop1.f-dropdown(data-dropdown-content='', aria-hidden='true')
+          li
+            a(href='#') Earthseige
+          li
+            a(href='#') Earthseige 2  
+          li
+            a(href='#') Tribes
+          li
+            a(href='#') Tribes 2
+          li
+            a(href='#') Tribes 3  
+          li
+            a(href='#') Tribes 4
+          li
+            a(href='#') Tribes Ascend   
