@@ -1,9 +1,13 @@
-  .header {
+body {
+  color: #000000;
+}
+
+.header {
     background: rgb(0,0,0.1);
   }
 
-  img {
-    width: 10vh;
+  img.hirez {
+    width: 8vh;
     height: 5vw;
 }
 
@@ -13,16 +17,61 @@ button.button.dropdown {
 
 
 .about {
-  height: 50vh;
-  background: url("/_prod/img/about.jpg")no-repeat;
+  height: 40vh;
+  background: url("img/about.jpg") no-repeat;
   background-size: 100% 100%;
   background-position: 70%;
-    }
+}
 
 p.paragraph {
   text-align: center;
-  padding: 40px;
+  padding: 90px;
   color: #ffffff;
   font-size: 20px;
   text-shadow: #000000 5px 0 12px;
+}
+
+.line {
+  border-left: thick solid #ff0000;
+  height: 100vh;
+  position: relative;
+  margin: 50px auto;
+  margin-left: 60px;
+
+}
+  
+  
+.column.small-12.medium-9 {
+  margin: 40px auto;
+} 
+  
+  
+.row {
+  .earthseige {
+  background-color: #c76465;
+  }
+  
+  .earthseige2 {
+    background-color: #ef9fae;
+    }
+
+  .starseige {
+    background-color: #c76475;
+    }
+
+  .tribes2 {
+    background-color: #781426;
+    }  
+
+  .aerial-assault {
+    background-color: #50000e;
+    }
+
+  .vengeance {
+    background-color: #a7383d;
+    }
+
+  .ascend {
+    background-color: #7d151a;
+    }
 }
