@@ -11,8 +11,18 @@ button.button.dropdown {
   margin: 20px;
 }
 
+
 .about {
-  height : 100vh;
-  width: 100vh;
-  background:url('C:/Projects/tribes/_prod/img/tribes.png');
+  height: 50vh;
+  background: url("/_prod/img/about.jpg")no-repeat;
+  background-size: 100% 100%;
+  background-position: 70%;
+    }
+
+p.paragraph {
+  text-align: center;
+  padding: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: #000000 5px 0 12px;
 }
