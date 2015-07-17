@@ -48,7 +48,7 @@ p.paragraph {
   
 .row {
   .earthseige {
-  background-color: #c76465;
+    background: url("img/earthseige-background.jpg") -124px 0 no-repeat;
   }
   
   .earthsiege2 {
@@ -83,5 +83,18 @@ img.logo {
   
 p {
   color: #ffffff;
-  padding: 3% 70% 0 2%;
+  padding: 3% 40% 0 2%;
+}
+
+.slick-slider {
+  margin: 0 20% 14% 2%;
+}
+
+.cd {
+  background: #9E8E8E;
+  opacity: 0.4;
+  color: #ffffff;
+  margin: 0 0 3% 2%;
+  width: 39%;
+  padding: 0 0 0 1%
 }
