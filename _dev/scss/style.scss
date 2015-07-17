@@ -7,12 +7,7 @@ body {
   }
 
   img.hirez {
-    width: 8vh;
-    height: 5vw;
-}
-
-button.button.dropdown {
-  margin: 20px;
+    width: 6vh;
 }
 
 
@@ -25,10 +20,11 @@ button.button.dropdown {
 
 p.paragraph {
   text-align: center;
-  padding: 90px;
+  padding: 5%;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.95vh;
   text-shadow: #000000 5px 0 12px;
+  width: 100%;
 }
 
 .line {
@@ -38,15 +34,13 @@ p.paragraph {
   height: 100vh;
 }
 
-.column.medium-2 {
+.column.small-2 {
   background: #000000;
 } 
   
-.column.small-12.medium-9 {
-  margin: 40px auto;
-} 
-  
 .row {
+  .position: relative;
+  
   .earthseige {
     background: url("img/earthseige-background.jpg") -124px 0 no-repeat;
   }
@@ -84,10 +78,11 @@ img.logo {
 p {
   color: #ffffff;
   padding: 3% 40% 0 2%;
+  font-size: 1.95vh;
 }
 
 .slick-slider {
-  margin: 0 20% 14% 2%;
+  margin: 0 16% 14% 6%;
 }
 
 .cd {
@@ -95,6 +90,6 @@ p {
   opacity: 0.4;
   color: #ffffff;
   margin: 0 0 3% 2%;
-  width: 39%;
+  width: 89%;
   padding: 0 0 0 1%
 }
