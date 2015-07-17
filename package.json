@@ -1,7 +1,7 @@
 {
   "name": "patch-notes",
   "version": "1.0.0",
-  "description": "SMITE Patch Notes",
+  "description": "Tribes Universe",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp-jade": "^1.0.1",

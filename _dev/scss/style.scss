@@ -33,29 +33,29 @@ p.paragraph {
 
 .line {
   border-left: thick solid #ff0000;
-  height: 100vh;
   position: relative;
-  margin: 50px auto;
-  margin-left: 60px;
-
+  margin-left: 50%;
+  height: 100vh;
 }
-  
+
+.column.medium-2 {
+  background: #000000;
+} 
   
 .column.small-12.medium-9 {
   margin: 40px auto;
 } 
-  
   
 .row {
   .earthseige {
   background-color: #c76465;
   }
   
-  .earthseige2 {
+  .earthsiege2 {
     background-color: #ef9fae;
     }
 
-  .starseige {
+  .starsiege {
     background-color: #c76475;
     }
 
@@ -74,4 +74,14 @@ p.paragraph {
   .ascend {
     background-color: #7d151a;
     }
+}
+    
+img.logo {
+  height: 70px;
+  margin: 10px;
+}
+  
+p {
+  color: #ffffff;
+  padding: 3% 70% 0 2%;
 }
